@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1uznyg8yevgft0bqo.mysql.rds.aliyuncs.com/bpmn_admin?characterEncoding=utf-8
+    username: system
+    password: 1234qwer!@#$
+#配置mapper的映射文件的位置
+mybatis:
+  type-aliases-package: com.xiaowei.bpmn.mysql.database.entity;com.alibaba.smart.framework.engine.service.param
+  mapper-locations: classpath:mappers/*Mapper.xml,classpath*:/mybatis/sqlmap/*.xml
+mybatis-plus:
+  #外部化xml配置
+  mapper-locations: classpath*:mappers/*Mapper.xml,classpath*:/mybatis/sqlmap/*.xml

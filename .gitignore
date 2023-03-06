@@ -1,0 +1,11 @@
+bpm-admin/target
+/hobiit-bpmn-core/hobiit-bpmn-core.iml
+/hobiit-bpmn-component/hobiit-bpmn-component.iml
+/hobiit-lowcode-admin/hobiit-lowcode-admin.iml
+.idea/
+target/
+.DS_Store
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+bpmn-admin.iml
